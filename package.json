@@ -1,0 +1,23 @@
+{
+  "name": "samsar",
+  "version": "1.0.0",
+  "description": "samsar web application for real estate agency in MURITANIA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedenVal/samsar.git"
+  },
+  "author": "HADEN MohamedenVal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedenVal/samsar/issues"
+  },
+  "homepage": "https://github.com/MohamedenVal/samsar#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
