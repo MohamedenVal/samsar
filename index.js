@@ -1,5 +1,10 @@
 var express = require("express");
 var app = express();
+const cors = require('cors')
+
+//Implementation of CORS
+app.use(cors());
+app.options('*', cors())
 
 require('dotenv/config');
 
